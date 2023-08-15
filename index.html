@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="./src/css/intro.css">
   <link rel="stylesheet" href="./src//css/hover.css">
   <link rel="stylesheet" href="./src/css/preloader.css">
+  <link rel="icon" href="./src/images/icon.ico">
+
+  <link rel="stylesheet" href="./src/css/typewriter.css">
   <!-- aos -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- ==========fonts============= -->
@@ -30,7 +33,7 @@
 
   <nav id="navbar" class="bg-white dark:bg-black">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="https://flowbite.com/" class="flex items-center">
+      <a href="" class="flex items-center">
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Joshua Floresta</span></p>
       </a>
       <div class="md:hidden">
@@ -88,9 +91,7 @@
         <h1>TRANSFORMING IDEAS</h1>
         <h1>INTO VIRTUAL REALITY</h1>
         <div id="resume_link">
-          <div id="arrow" > <img src="./src/images/arrow.gif" alt="" style="transform: scaleX(-2) ; width: 80px;"></div>
-          <button id ="resume_btn"><a href="" target="_blank">CHECK OUT MY CV</a></button>
-          <!-- https://drive.google.com/u/2/uc?id=1FGM8b20ULyLbkzKypv6c7EjFLnnHwUn0&export=download -->
+          <button id ="resume_btn"><a href="https://drive.google.com/u/2/uc?id=1FGM8b20ULyLbkzKypv6c7EjFLnnHwUn0&export=download" target="_blank">CHECK OUT MY CV</a></button>
         </div>
       </div>
     </div>
@@ -120,9 +121,15 @@
   
         <div class=" justify-start items-center grid md:grid-cols-2 md:flex-row-reverse ">
           <!-- Text Area -->
-          <div class="p-4 " data-aos="fade-right" data-aos-duration="2000">
-            <p class="text-gray-600 dark:text-white dark:font-normal ">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis at adipisci corrupti veniam, ad consequuntur iusto consequatur non dignissimos, molestias beatae ducimus, dolore impedit repellendus mollitia. Nulla consectetur error a eos, maiores rem. Maiores molestias iure repudiandae ullam recusandae nobis libero voluptatum amet id nam.
+          <div class="p-4 " data-aos="fade-right" data-aos-duration="2000"> 
+            <p class="text-gray-600 dark:text-white dark:font-normal " id="about_content">
+              I am a Motivated and Adaptable Web Developer. I specialize in designing and developing
+               modern and dynamic websites. I am passionate about crafting web experiences that are
+                not only engaging but also intuitive for users. With a strong grasp of design
+                 principles and a thorough knowledge of web technologies, I am well-familiarized 
+                 with popular tech stacks. seeking opportunities to collaborate with a diverse team
+                  and contribute to impactful projects, creating exceptional websites that showcase 
+                  both creativity and technical expertise.
             </p>
           </div>
         
@@ -135,6 +142,7 @@
             </div>
           </div>
         </div>
+
     </div>
 
       <header class="flex justify-center mt-10 ">
@@ -200,7 +208,7 @@
         </div>
 
         <div>
-          <p class="text-sm mt-2 dark:text-white">Unleash your artistic passion with our diverse art courses and workshops. From painting to digital art, sculpting to mixed media, this website offer tailored programs to fuel your creativity and aspirations. Join me and embark on a transformative journey of self-expression through the power of art.</p>
+          <p class="text-sm mt-2 dark:text-white" id="project_details">Unleash your artistic passion with our diverse art courses and workshops. From painting to digital art, sculpting to mixed media, this website offer tailored programs to fuel your creativity and aspirations. Join me and embark on a transformative journey of self-expression through the power of art.</p>
         </div>
        </div>
 
@@ -221,7 +229,7 @@
           <p id="node">Node</p>
         </div>
         <div>
-          <p class="text-sm mt-2 dark:text-white">Experience the nostalgia of Pokémon with my Pokedex Clone project. Through seamless integration with an Axios API, this responsive application brings the world of Pokémon to your fingertips. Explore and discover the vast array of creatures, their unique traits, and captivating details, all within a sleek and user-friendly interface.</p>
+          <p class="text-sm mt-2 dark:text-white" id="project_details" >Experience the nostalgia of Pokémon with my Pokedex Clone project. Through seamless integration with an Axios API, this responsive application brings the world of Pokémon to your fingertips. Explore and discover the vast array of creatures, their unique traits, and captivating details, all within a sleek and user-friendly interface.</p>
         </div>
        </div>
 
@@ -242,7 +250,7 @@
           <p id="node">Node</p>
         </div>
         <div>
-          <p class="text-sm mt-2 dark:text-white">Elevate Your Feminine Wellness with Femi: The Smart Cycle Tracker and Planner. Take control of your health journey by accurately monitoring your cycles and receiving customized schedules for a balanced life.</p>
+          <p class="text-sm mt-2 dark:text-white" id="project_details">Elevate Your Feminine Wellness with Femi: The Smart Cycle Tracker and Planner. Take control of your health journey by accurately monitoring your cycles and receiving customized schedules for a balanced life.</p>
         </div>
        </div>
 
@@ -262,7 +270,7 @@
           <p id="bootstrap">Bootstrap</p>
         </div>
         <div>
-          <p class="text-sm mt-2 dark:text-white"> An innovative e-commerce platform empowering local artists to showcase their unique talents and artworks, while seamlessly connecting them with art enthusiasts and potential buyers. Explore a diverse range of captivating creations and support artists directly by purchasing their exceptional pieces, all within a dynamic and user-friendly online environment.</p>
+          <p class="text-sm mt-2 dark:text-white" id="project_details"> An innovative e-commerce platform empowering local artists to showcase their unique talents and artworks, while seamlessly connecting them with art enthusiasts and potential buyers. Explore a diverse range of captivating creations and support artists directly by purchasing their exceptional pieces, all within a dynamic and user-friendly online environment.</p>
         </div>
        </div>
 
@@ -278,7 +286,7 @@
           </h1>
         </header>
       
-        <div class="grid grid-cols-1 md:grid-cols-2 align-middle items-center gap-6" data-aos="fade-left" data-aos-duration="2000">
+        <div class="grid grid-cols-1 md:grid-cols-2 align-middle items-center gap-6" data-aos="fade-up" data-aos-duration="2000">
           <div class="flex justify-center md:pl-10">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://lottie.host/98c49c1c-780f-4d73-985c-169324760dfa/LxtDzanwpm.json" background="#FF" speed="1" direction="1" mode="normal" loop autoplay id="animated_svg"></lottie-player> 
@@ -357,6 +365,9 @@
     AOS.init();
   </script>
 
+  <!-- ====typeeffect==== -->
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script src="./src/js/typewrite.js"></script>
 
   <script src="./src/js/app.js"></script>
   <script src="./src/js/index.js"></script>

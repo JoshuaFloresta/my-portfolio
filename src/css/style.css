@@ -84,6 +84,12 @@ body{
     border-radius: 10px;
   }
 
+  @media (min-width:350px) and (max-width:900px){
+
+    .floating-div {
+    display: none;
+    }
+  }
 
   @keyframes floatAnimation {
     from {
@@ -102,6 +108,12 @@ body{
   }
 
   .dark #clickableImage{
+    cursor: pointer;
+    width: 50%;
+    
+  }
+
+ #clickableImage{
     cursor: pointer;
     width: 50%;
     
@@ -298,4 +310,12 @@ body{
     width: 400px;
     height: 400px;
   }
+  }
+
+  #about_content{
+    text-align: justify;
+  }
+
+  #project_details{
+    text-align: justify;
   }

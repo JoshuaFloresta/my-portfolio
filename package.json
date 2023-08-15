@@ -5,11 +5,14 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"tailwindcss -i ./src/input.css -o ./dist/global.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/global.css --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "typeit": "^8.7.1"
   }
 }
