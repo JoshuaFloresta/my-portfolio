@@ -261,6 +261,25 @@ body{
   color: #f3df45;
 }
 
+#node{
+  color: #026E00;
+}
+
+#react{
+  color: #5ED3F3;
+}
+
+#tailwind{
+  color: #0EA5E9;
+}
+
+#php{
+  color: #314D5D;
+}
+
+#mysql{
+  color: #F89B22;
+}
 
 #submit:hover{
   color:white;
