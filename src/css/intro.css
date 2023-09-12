@@ -13,6 +13,7 @@
     position: absolute;
     white-space: nowrap;
   }
+  
   .dark .content h1 {
     color: #fff;
     transform: translate(-50%, -50%);
